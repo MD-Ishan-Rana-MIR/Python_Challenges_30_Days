@@ -18,17 +18,17 @@
 #     print(num, "is not a perfect number")
 
 
-amount = 0
-
-unit_number = float(input("Enter the amount of the unit: "))
-if unit_number<=100:
-    print("The amount of the unit is:", amount)
-elif unit_number>100 and unit_number <= 200 :
-    amount = unit_number * 5
-    print("The amount of the unit is:", amount)
-elif unit_number > 200 and unit_number < 300:
-    amount = unit_number * 10
-    print("The amount of the unit is:", amount)
+# amount = 0
+#
+# unit_number = float(input("Enter the amount of the unit: "))
+# if unit_number<=100:
+#     print("The amount of the unit is:", amount)
+# elif unit_number>100 and unit_number <= 200 :
+#     amount = unit_number * 5
+#     print("The amount of the unit is:", amount)
+# elif unit_number > 200 and unit_number < 300:
+#     amount = unit_number * 10
+#     print("The amount of the unit is:", amount)
 
 
 
