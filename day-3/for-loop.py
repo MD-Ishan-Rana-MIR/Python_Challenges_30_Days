@@ -1,5 +1,6 @@
 # for i in range(10,50,2):
 #     print(i)
+from operator import index
 
 # for i in range (50,10,-2):
 #     print(i)
@@ -116,30 +117,59 @@
 # print(count_number)
 
 
-name = "I Love Data Science"
-
-data = name.split()
-
-print(data)
-
-for i in range (len(data)):
-    print(data[i],i)
-
-
+# name = "I Love Data Science"
+#
+# data = name.split()
+#
+# print(data)
+#
+# for i in range (len(data)):
+#     print(data[i],i)
 
 
 
+# name = "Ishan"
+#
+# data = name.split(" ")
+#
+# print(data)
+#
+#
+#
+# for i in range(0,len(data)):
+#     print(data[i])
+#
+# result = 0
+# for i in range(1,20) :
+#     if i%2 == 0 :
+#         result += i
+# print(result)
+#
+# count = 0
+# while count < 10 :
+#     count += 1
+#     if count % 2 == 0 :
+#         break
+#     print("Python")
+
+# numbers = [1, 20, 3, 30]
+#
+# total = 0
+#
+# index = 0
+#
+# while index < len(numbers):
+#     total = total+numbers[index]
+#     index = index+1
+#     print(total, index)
 
 
+data = "i love python"
+index = 0
 
-
-
-
-
-
-
-
-
+while index < len(data):
+    print(data[index])
+    index += 1
 
 
 
